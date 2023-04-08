@@ -18,7 +18,7 @@ Edges lists format supported, see [SSA Instructions](./SSA/Instructions.pdf). Fo
 Ignore the first line, it is deprecated now. And the second line goes the parameter settings : ls_ratio, maxage, size_of_hypergraph, popsize, maxgen, ls_rate. Following lines show the results, the last percentage number is the the proportion of the most individuals.
 
 ## Verification
-You can use the tool in SSA folder, see [SSA Instructions](./SSA/Instructions.pdf). If you do that, do not use multi-thread under IC model, there is a bug. In the course paper, we use monto-carlo simulation results.
+You can use the tool in SSA folder, see [SSA Instructions](./SSA/Instructions.pdf). If you do that, do not use multi-thread under IC model, there seems to be a bug. In the paper, we use monto-carlo simulation results.
 
 ## Other Information
 I built this project based on https://github.com/KRM7/genetic-algorithms and
